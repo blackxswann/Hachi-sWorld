@@ -41,3 +41,6 @@ void AnimationPlayer_idleLeft(Animation* anim);
 void AnimationPlayer_idleRight(Animation* anim);
 void AnimationPlayer_walkLeft(Animation* anim);
 void AnimationPlayer_walkRight(Animation* anim);
+
+void AnimationRadish_move(Animation* anim);
+void AnimationCassava_move(Animation* anim);
