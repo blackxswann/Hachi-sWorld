@@ -8,7 +8,7 @@ void Player_Init(Player* player, const char* playerName)
     player->name[sizeof(player->name) - 1] = '\0'; 
 
     player->score = 0;
-    player->level = 1;
+    player->level = 1; //gfr
 
     player->isWalking_right = false;
     player->isWalking_left = false;
