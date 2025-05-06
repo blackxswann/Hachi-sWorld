@@ -18,6 +18,18 @@ typedef struct Animation {
     int timer_playerWalk;
     int timer_playerRun;
     int timer_playerJump;
+
+    Texture2D radish_texture_move;
+    Texture2D cassava_texture_move;
+
+    Rectangle radish_frame_move;
+    Rectangle cassava_frame_move;
+
+    Rectangle radish_position;
+    Rectangle cassava_position;
+
+    int timer_radishMove;
+    int timer_cassavaMove;
 } Animation;
 
 void Animation_Load(Animation* anim);

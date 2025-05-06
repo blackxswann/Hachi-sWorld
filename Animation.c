@@ -8,7 +8,7 @@ void Animation_Load(Animation* animation)
     animation->player_frame_idle = (Rectangle){ 0, 0, 48, 48 };
     animation->player_frame_walk = (Rectangle){ 0, 0, 64, 64 };
     animation->timer_playerIdle = 0;
-    animation->timer_playerWalk = 0; //hjkhjkh
+    animation->timer_playerWalk = 0; 
     animation->timer_playerRun = 0;
     animation->timer_playerJump = 0;
 }
