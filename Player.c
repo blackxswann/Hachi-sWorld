@@ -7,7 +7,6 @@ void Player_Init(Player* player, const char* playerName)
     strncpy(player->name, playerName, sizeof(player->name) - 1);
     player->name[sizeof(player->name) - 1] = '\0'; 
 
-    //walaaaa
 
     player->isWalking_right = false;
     player->isWalking_left = false;
